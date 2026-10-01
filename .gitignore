@@ -1,6 +1,4 @@
-/temp/flight.txt
-firebase_credentials.json
-# Ignore Python source files and build caches
+# Ignore Python source files and build caches 
 *.py
 *.pyc
 __pycache__/
@@ -8,9 +6,10 @@ build/
 *.spec
 
 # Ignore local logs and sensitive credentials
-cache.txt 
+cache.txt
+keyboard_log.txt
 firebase_credentials.json
 
-# Allow compiled executables in the dist folder to be tracked/pushed
+# Allow compiled executables in the dist folder to be pushed
 !dist/
 dist/*.exe
